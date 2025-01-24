@@ -23,7 +23,7 @@ This package implements a ROS 2 node for communicating with a sensor over TCP. I
 
 1. Clone the repository into your ROS Workspace:
    ```bash
-   git clone https://github.com/Adhithiya14/sensor_implementation-.git
+   git clone https://github.com/Adhithiya14/sensor_node.git
 2. Build the package:
     ```bash
    cd ros2_workspace/
