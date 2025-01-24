@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>sensor_node</name>
+  <version>0.1.0</version>
+  <description>A ROS 2 node for communicating with a TCP sensor.</description>
+
+  <maintainer email="adhithiyashanmugarajan@gmail.com">Adhithiya</maintainer>
+
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <test_depend>pytest</test_depend>
+</package>
