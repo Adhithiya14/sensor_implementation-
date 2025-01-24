@@ -21,12 +21,12 @@ This package implements a ROS 2 node for communicating with a sensor over TCP. I
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repository into your ROS Workspace:
    ```bash
    git clone https://github.com/Adhithiya14/sensor_implementation-.git
-   cd sensor_project
 2. Build the package:
     ```bash
+   cd ros2_workspace/
    colcon build
 
 ## How To Use the Package 
