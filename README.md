@@ -28,6 +28,9 @@ This package implements a ROS 2 node for communicating with a sensor over TCP. I
     ```bash
    cd ros2_workspace/
    colcon build
+3. Source the package
+   ```bash
+   source install/setup.bash
 
 ## How To Use the Package 
 
