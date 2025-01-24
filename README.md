@@ -25,4 +25,19 @@ This package implements a ROS 2 node for communicating with a sensor over TCP. I
    ```bash
    git clone <repo_link>
    cd sensor_project
+2. Build the package:
+    ```bash
+   colcon build
+
+## How To Use the Package 
+
+1. Start the ROS2 Node
+    ```bash
+    ros2 run sensor_node sensor_node
+2. Set the custom interval
+    ```bash
+    ros2 param set /sensor_node interval <interval_in_ms>
+3. Stop the sensor
+   ```bash
+   ros2 topic pub /stop_sensor std_msgs/msg/Int32 "data: 0"
 
